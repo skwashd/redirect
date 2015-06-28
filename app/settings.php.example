@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Redirect Application configuration.
+ */
+
+return [
+    'sites' => [
+        'src' => __DIR__ . '/sites.json',
+        'default_status' => 302,
+	'default_url' => 'http://google.com',
+    ],
+    // 60 * 60 * 24 = 86400 (aka 1 day)
+    'cache_lifetime' => 86400,
+    'shared_key' => 'Secret Key',
+];

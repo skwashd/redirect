@@ -1,0 +1,23 @@
+{
+    "name": "skwashd/redirect",
+    "description": "Redirect a request to a different domain.",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dave Hall",
+            "email": "skwashd@gmail.com",
+            "homepage": "http://davehall.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src/App/"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/http-cache": "0.2.*"
+    },
+    "minimum-stability": "dev"
+}
